@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Title block allowing child pages to override -->
+    <title>The Shave</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="The Shave HTML5 Barbershop theme" />
+    <meta name="keywords" content="fullscreen image, grid layout, isotope grid, transition, css3" />
+    <meta name="author" content="Spencer Bigum" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Style block allowing child pages to inject their own styles -->
+    <!-- Styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/main.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!--[if IE 9]>
+        <link href="assets/css/shave-ie9-styles.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <![endif]-->
+</head>
+
+<body class="loading">
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!--
+    #################################
+        - Header Section -
+    #################################
+    -->
+    <header id="header" class="nav-shadow">
+        <!--company name-->
+        <a id="sv__logo" href="index.html">
+            <h1>Devi's Threading</h1>
+        </a>
+        <!-- Dropdown Nav -->
+        <div class="cd-dropdown-wrapper open-to-left">
+            <!-- Menu -->
+            <a href="#" class="cd-dropdown-trigger">Menu</a>
+            <nav class="cd-dropdown">
+                <!-- Barbershop name -->
+                <h2>The Shave</h2>
+                <a href="#0" class="cd-close">Close</a>
+                <!-- Nav content -->
+                <ul class="cd-dropdown-content">
+                    <!-- Book now btn for mobile -->
+                    <li class="mobile-modal book-now-m">
+                        <a data-toggle="modal" data-target="#bookNowModal">Book Today</a>
+                    </li>
+                    <!-- Service Icons -->
+                    <li class="has-children">
+                        <a href="service-shave.html">Our Services</a>
+                        <ul class="cd-dropdown-icons is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li class="see-all"><a href="about.html">Why Choose Us?</a></li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-1" href="about.html">
+
+                                    <h3> Threading </h3>
+                                    <p> Get your Perfect Eyebrows </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-2" href="about.html">
+
+                                    <h3> Waxing </h3>
+                                    <p> Clean it Up </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-2" href="about.html">
+
+                                    <h3> Facial </h3>
+                                    <p> Get your desired look. </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-2" href="about.html">
+                                    <h3> Facial </h3>
+                                    <p> Get your desired look. </p>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a class="cd-dropdown-item item-3" href="about.html">
+
+                                    <h3> Henna Tatoos </h3>
+                                    <p> Ink Yourself </p>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- .cd-dropdown-icons -->
+                    </li>
+                    <!-- end theme features + icons -->
+                    <!-- Gallery -->
+                    <li class="has-children">
+                        <!-- Nav title -->
+                        <a href="gallery.html">Gallery</a>
+                        <ul class="cd-dropdown-gallery is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li class="see-all"><a href="features.html">Browse all features</a></li>
+                            <!-- Gallery Item 1 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery1.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                            <!-- Gallery Item 2 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery2.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                            <!-- Gallery Item 3 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery3.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                            <!-- Gallery Item 4 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery4.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end .cd-dropdown-gallery -->
+                    </li>
+                    <!-- end gallery -->
+
+                    <li class="single-item"><a href="about.html">About</a></li>
+                    <li class="single-item"><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- .cd-dropdown-content -->
+            </nav>
+            <!-- end nav -->
+        </div>
+        <!-- end cd-wrapper -->
+        <!-- Book now button -->
+        <div class="nav__book hidden-xs">
+            <div id="phone" class="quick-link white"><a href="#"><i class="fa fa-phone"></i></a></div>
+            <div id="hours" class="quick-link white"><a href="#"><i class="fa fa-clock-o"></i></a></div>
+            <a href="#" class="book__nav" data-toggle="modal" data-target="#bookNowModal">Book Now</a>
+        </div>
+    </header>
+    <!-- end header -->
+    <!--
+    #################################
+        - Main Shave Content -
+    #################################
+    -->
+    <main class="sv__main--content">
+        <!--
+        #################################
+                    - Prices -
+        #################################
+        -->
+        <div class="section container-fluid white-bg container-push">
+            <div class="row sv__container--sm">
+                <div class="col-xs-12 inner__header--sm">
+                    <h2> Our Price List.</h2>
+                    <h3>Our comprehensive list of all provided services</h3>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- price section -->
+        <div class="section container-fluid grey-bg no-padding">
+            <div class="angle-bottom-top" style="color: #fff;"></div>
+            <!-- pricing tab accordion -->
+            <div class="sv__container--sm sm-fluid no-padding tier2">
+                <div class="tabs__wrapper">
+                    <div class="tabs__content" role="tabpanel">
+                        <!-- pricing tab accordion list-->
+                        <ul id="priceTabs" class="nav nav-tabs nav-justified white-tabs" role="tablist">
+                            <li id="beard-mustache" role="presentation" class="tab__control ">
+                                <a href="#beard" id="beard-tab" role="tab" aria-controls="beard" aria-expanded="false">
+                                    <div class="tab-wrapper-icons">
+                                        <span class="tab-icon">
+                                    <i class="icon-sv-mustache"></i>
+                                </span>
+                                        <span class="text"> Eyebrow Threading </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li id="shave" role="presentation" class="tab__control active">
+                                <a href="#shaving" role="tab" id="shaving-tab" aria-controls="shaving" aria-expanded="false">
+                                    <div class="tab-wrapper-icons">
+                                        <span class="tab-icon">
+                                    <i class="icon-sv-razor"></i>
+                                </span>
+                                        <span class="text">Waxing</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li id="haircuts" role="presentation" class="tab__control">
+                                <a href="#hair-cuts" role="tab" id="haircuts-tab" aria-controls="hair-cuts" aria-expanded="false">
+                                    <div class="tab-wrapper-icons">
+                                        <span class="tab-icon">
+                                    <i class="icon-sv-scissors"></i>
+                                </span>
+                                        <span class="text"> Facials</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li id="other" role="presentation" class="tab__control">
+                                <a href="#other" role="tab" id="other" aria-controls="other" aria-expanded="false">
+                                    <div class="tab-wrapper-icons">
+                                        <span class="tab-icon">
+                                    <i class="icon-sv-scissors"></i>
+                                </span>
+                                        <span class="text"> Other Services</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end pricing tab accordion list-->
+                        <!-- tab content -->
+                        <div id="myPriceContent" class="tab-content">
+                            <!-- start Eyebrow  -->
+                            <div role="tabpanel" class="tab-pane tab-fade" id="beard" aria-labelledby="beard-tab">
+
+                                <!-- tab panel -->
+                                <div class="tab__panel">
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3> Eyebrow</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$6.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get Your Eyebrow done to get a perfect facial look.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Upper Lips</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$4.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get pretty when you smile.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Chin</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$4.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get pretty when you smile.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Sides</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$5.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get done your sides.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Forehead</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$4.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>First look gets in your frontface.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Neck</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$4.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get it straight.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Cheek</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$5.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Pretty cheeks : Pretty Face</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Face</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$25.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Full face : Full beauty </p>
+                                        </div>
+                                    </div>
+                                    <div class="footer__dots">:::::</div>
+                                </div>
+                                <!-- end tab panel -->
+                            </div>
+                            <!-- end breard and mustache -->
+                            <!-- start shaving -->
+                            <div role="tabpanel" class="tab-pane tab-fade active" id="shaving" aria-labelledby="shaving-tab">
+
+                                <div class="tab__panel">
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Face </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$30</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Get your full face beauty. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Under Arms</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$10</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Don't hide anything under.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Half Arms</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$20 & Up</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Get it done.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Arms</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$30 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get Full Arms as a Arms package.  </p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Half Leg</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$25 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get it Done.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Leg </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$40 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get Full Legs Done as our special Legs package</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Bikini Side </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$15 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Get that side done.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Bikini </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$30 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>A complete package</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Brazilian Bikini </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$40 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Get it all done.</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Back </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$30 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Full back means sexy back. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Full Body </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$120 & UP</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>A complete package for your perfect beauty. Make your body glorious.</p>
+                                        </div>
+                                    </div>
+                                    <div class="footer__dots">:::::</div>
+                                </div>
+                                <!-- end tab panel -->
+                            </div>
+                            <!-- end waxing -->
+
+
+
+
+
+                            <div role="tabpanel" class="tab-pane tab-fade active" id="other" aria-labelledby="shaving-tab">
+
+                                <div class="tab__panel">
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Henna Tatto </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$7.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Get Inked. We have hundreds of templates to give you best decoration. </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Henna For Hair </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$21.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>Give your hair shinny look with our Henna for Hair treatment.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Ear Piercing </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$25.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Get your Ear pierced so that you can wear your favorites Earring</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3> Nose Piercing </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>17.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Get your nose pierced </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Bridal Henna </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$235.99</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> A complete package yo make your beautiful bride </p>
+                                        </div>
+                                    </div>
+                                    <div class="footer__dots">:::::</div>
+                                </div>
+                                <!-- end tab panel -->
+                            </div>
+
+
+
+
+
+
+                            <!-- start facial -->
+                            <div role="tabpanel" class="tab-pane tab-fade" id="hair-cuts" aria-labelledby="haircuts-tab">
+
+                                <div class="tab__panel">
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Gold Facial </h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$60</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p> Give yourself a charm and beauutiful look. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>Mini Facial</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$35</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>30 Minutes of facial massage with your preferance of either Dermollogica or Ayurveda products. </p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">
+                                            <h3>European Facial</h3>
+                                        </div>
+                                        <div class="price">
+                                            <p>$50</p>
+                                        </div>
+                                        <div class="desc">
+                                            <p>60 Minutes of facial massage using Dermollogica products includes cleaning twice and exfoliating the surface of skin. Steam extraction, message and mask with hydrating booster, this treatment will leave your skin feeling radiant from outside, healthy and nourished from inside seprate for dry and oily skin. </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="footer__dots">:::::</div>
+                                </div>
+
+
+
+                                <!-- end tab panel -->
+                            </div>
+                            <!-- end haircut -->
+                        </div>
+                        <!-- end tab content -->
+                    </div>
+                    <!-- end pricing table -->
+                </div>
+                <!-- end wrapper -->
+            </div>
+            <!-- end tab accordion -->
+        </div>
+        <!-- end price section -->
+    </main>
+    <!-- end main -->
+    <!--
+    #################################
+                - Footer -
+    #################################
+    -->
+    <footer class="loading">
+        <div class="sv__container--md">
+            <!-- Footer Wrapper -->
+            <div class="footer__wrapper">
+                <div class="row footer__row">
+                    <!-- Footer Logo -->
+                    <div class="footer__logo no-padding">
+                        <div class="logo__container">
+                            <h3>Devi's Threading</h3>
+                            <h4>Threading Salon</h4>
+                        </div>
+                    </div>
+                    <!-- Footer Description -->
+                    <div class="footer__desc">
+                        <!-- email container -->
+                        <div class="email__wrapper">
+                            <!-- email form -->
+                            <div class="email__form form-group">
+                                <form>
+                                    <!-- email input -->
+                                    <input type="email" class="form-control email__form--input" id="footer-email" name="EMAIL" required placeholder="Your Email Address">
+                                    <!-- subtext to email -->
+                                    <div class="email__offers">
+                                        <p>Stay updated on the latest + special offers and more.</p>
+                                    </div>
+                                    <!-- end sub-text -->
+                                    <button type="submit" class="btn book-now-btn form-btn">Submit</button>
+                                </form>
+                            </div>
+                            <!-- end email form -->
+                        </div>
+                        <!-- end email container -->
+                        <!-- address container -->
+                        <div class="row footer__contact">
+                            <!-- address -->
+                            <div class="col-xs-12 col-sm-6 footer__address no-padding">
+                                <p>431 E 1st St</p>
+                                <p>Santa Ana, CA 92701</p>
+                            </div>
+                            <!-- email -->
+                            <div class="col-xs-12 col-sm-6 contact no-padding">
+                                <a class="email" href="mailto:devithreading@gmail.com">devithreading@gmail.com</a>
+                                <a class="phone" href="tel:714.550.1004">714.550-1004</a>
+                            </div>
+                        </div>
+                        <!-- end address container -->
+                        <!-- social media -->
+                        <div class="row social-footer">
+                            <div class="col-xs-12 col-sm-6 col-md-8">
+                              <ul>
+                                  <li><a href="https://www.facebook.com/Devis-Threading-Beauty-210358435710380"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="https://www.instagram.com/devisthreading/"><i class="fa fa-instagram"></i></a></li>
+                                  <li><a href="https://plus.google.com/+DevisThreadingBeautySantaAna/posts"><i class="fa fa-google-plus"></i></a></li>
+                                  <li><a href="http://www.yelp.com/biz/devis-threading-and-beauty-santa-ana"><i class="fa fa-yelp"></i></a></li>
+                              </ul>
+                            </div>
+                            <!-- end col -->
+                            <!-- copyright -->
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="copyright">
+                                    <p>&copy; Devi's Threading</p>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end social media -->
+                    </div>
+                    <!-- end right side -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end container md -->
+    </footer>
+    <!-- end foother -->
+    <!-- Book now modal -->
+    <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <!-- Modal Section 1 -->
+                    <div class="col-xs-12 no-padding modal-info">
+                        <!-- Mobile close btn (hidden on larger screens) -->
+                        <button type="button" class="modal-close" aria-label="Close"><i class="fa fa-times"></i>
+                        </button>
+                        <!-- Section 1 content -->
+                        <div class="modal-bookNow" >
+                            <h2>Make AN Appointment</h2>
+                            <h4>Get your desired looks.</h4>
+                        </div>
+                        <!-- end modal content -->
+                    </div>
+                    <!-- end modal section 1 -->
+                    <!-- Modal Section 2 new -->
+                    <div class="col-xs-12 no-padding">
+                        <div class="modal-form">
+                            <ul class="book-list">
+                                <li>
+                                    <a href="">
+                                        <div class="list-content">
+                                            <i class="fa fa-phone fa-2x"></i>
+                                            <span>Call ahead</span>
+                                            <p>714.550.1004</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        <div class="list-content">
+                                            <i class="fa fa-map-marker fa-2x"></i>
+                                            <span>Walk-ins welcome</span>
+                                            <p>431 E 1st St, Santa Ana, CA 92701</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:devithreading@gmail.com">
+                                        <div class="list-content">
+                                            <i class="fa fa-paper-plane fa-2x"></i>
+                                            <span>Say Hello</span>
+                                            <p>devithreading@gmail.com</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end modal-form -->
+                    </div>
+                    <!-- end modal section 2 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end modal-content -->
+        </div>
+        <!-- end modal-dialog -->
+    </div>
+    <!-- End Modal -->
+    <!-- shave shop phone -->
+    <div class="sv-toast" data-toast="phone">
+        <div class="alert alert-success sv-phone" role="alert">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2>Feel free to call us</h2>
+            <p> Make an Appointment</p>
+            <img class="img-responsive" src="assets/images/phone.png" alt="The Shave Phone Number" />
+            <a href="" class="tele">(714) 550-1004</a>
+        </div>
+    </div>
+    <!-- end shop pimes -->
+    <!-- shave shop times -->
+    <div class="sv-toast" data-toast="hours">
+        <div class="alert alert-success sv-hours" role="alert">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="toast-title">
+                <h2> Devi's Threading Hours</h2>
+                <h6>We're open</h6>
+            </div>
+            <div class="toast-hours">
+                <p><span>Mon - Fri :</span> 10:00 AM - 8:00 PM</p>
+                <p><span>Sat :</span> 10:00 AM - 8:00 PM</p>
+            </div>
+        </div>
+    </div>
+    <!-- end shop times -->
+    <!-- Plugins -->
+    <script src="assets/scripts/jquery.min.js"></script>
+    <script src="assets/scripts/jquery.menu-aim.js"></script>
+    <script src="assets/scripts/modernizr.min.js"></script>
+    <script src="assets/scripts/bootstrap.min.js"></script>
+    <script src="assets/scripts/skrollr.min.js"></script>
+    <script src="assets/scripts/imagesloaded.min.js"></script>
+    <script src="assets/scripts/jquery-placeholder.min.js"></script>
+    <script src="assets/scripts/jquery.prefetch.min.js"></script>
+    <script src="assets/scripts/ScrollMagic.min.js"></script>
+    <script src="assets/scripts/debug.addIndicators.min.js"></script>
+    <!-- Settings -->
+    <script src="assets/scripts/window-settings.min.js"></script>
+    <script src="assets/scripts/nav-settings.min.js"></script>
+    <script src="assets/scripts/main-settings.min.js"></script>
+    <!-- Script block allowing child pages to inject their own scripts -->
+    <script src="assets/scripts/price-tabs.min.js"></script>
+</body>
+
+</html>

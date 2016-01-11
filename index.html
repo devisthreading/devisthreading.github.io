@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Title block allowing child pages to override -->
+    <title> Devi's Threading </title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="The Shave HTML5 Barbershop theme" />
+    <meta name="keywords" content="fullscreen image, grid layout, isotope grid, transition, css3" />
+    <meta name="author" content="Spencer Bigum" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Style block allowing child pages to inject their own styles -->
+    <link href="assets/css/revolution5.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/main.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!--[if IE 9]>
+        <link href="assets/css/shave-ie9-styles.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <![endif]-->
+
+    <script src="assets/scripts/jquery.min.js"></script>
+
+        <!-- Script block allowing child pages to inject their own scripts -->
+    <script src="assets/scripts/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/scripts/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/extensions/revolution.extension.video.min.js"></script>
+
+</head>
+
+<body class="loading">
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!--
+    #################################
+        - Header Section -
+    #################################
+    -->
+    <header id="header" class="nav-shadow">
+        <!--company name-->
+        <a id="sv__logo" href="index.html">
+            <h1> Devi's Threading</h1>
+        </a>
+        <!-- Dropdown Nav -->
+        <div class="cd-dropdown-wrapper open-to-left">
+            <!-- Menu -->
+            <a href="#" class="cd-dropdown-trigger">Menu</a>
+            <nav class="cd-dropdown">
+                <!-- Barbershop name -->
+                <h2>The Shave</h2>
+                <a href="#0" class="cd-close">Close</a>
+                <!-- Nav content -->
+                <ul class="cd-dropdown-content">
+                    <!-- Book now btn for mobile -->
+                    <li class="mobile-modal book-now-m">
+                        <a data-toggle="modal" data-target="#bookNowModal">Book Today</a>
+                    </li>
+                    <!-- Service Icons -->
+                    <li class="has-children">
+                        <a href="service-shave.html">Our Services</a>
+                        <ul class="cd-dropdown-icons is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li class="see-all"><a href="about.html">Why Choose Us?</a></li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-1" href="about.html">
+                                    <h3> Threading </h3>
+                                    <p> Get your Perfect Eyebrows </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-2" href="about.html">
+                                    <h3> Waxing </h3>
+                                    <p> Clean it Up </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-2" href="about.html">
+                                    <h3> Facial </h3>
+                                    <p> Get your desired look. </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="cd-dropdown-item item-3" href="about.html">
+                                    <h3> Henna Tatoos </h3>
+                                    <p> Ink Yourself </p>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- .cd-dropdown-icons -->
+                    </li>
+                    <!-- end theme features + icons -->
+                    <!-- Gallery -->
+                    <li class="has-children">
+                        <!-- Nav title -->
+                        <a href="gallery.html">Gallery</a>
+                        <ul class="cd-dropdown-gallery is-hidden">
+                            <li class="go-back"><a href="#0">Menu</a></li>
+                            <li class="see-all"><a href="features.html">Browse all features</a></li>
+                            <!-- Gallery Item 1 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery1.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                            <!-- Gallery Item 2 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery2.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                            <!-- Gallery Item 3 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery3.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                            <!-- Gallery Item 4 -->
+                            <li class="plus-effect">
+                                <a class="cd-dropdown-item" href="gallery-3-grid.html">
+                                    <div class="hover-container">
+                                        <div class="plus-hover hidden-xs hidden-sm">
+                                            <i class="fa fa-plus-circle"></i>
+                                        </div>
+                                        <img src="assets/images/gallery4.jpg" alt="Product Image">
+                                    </div>
+                                    <h3>Gallery</h3>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end .cd-dropdown-gallery -->
+                    </li>
+                    <!-- end gallery -->
+                    <!-- Price list -->
+                    <li class="has-children">
+                        <!-- Nav title -->
+                        <a href="index.html">Prices & Options</a>
+                        <ul class="cd-secondary-dropdown is-hidden">
+
+                            <li class="see-all"><a href="prices.html">View All Prices</a></li>
+                            <!-- Sub-item -->
+                            <li class="has-children">
+                                <!-- Sub-item title -->
+                                <a href="prices.html">Threading Service</a>
+                                <!-- Sub-item contents -->
+                                <ul class="is-hidden">
+                                    <li>Eyebrow</li>
+                                    <li>Upper Lip</li>
+                                    <li>Chin</li>
+                                    <li>Sides</li>
+                                    <li>Forehead</li>
+                                    <li>Neck</li>
+                                    <li>Cheek</li>
+                                    <li>Full Face</li>
+                                </ul>
+                                <!-- end Sub-item contents -->
+                            </li>
+                            <!-- end sub-item -->
+                            <!-- Sub-item -->
+                            <li class="has-children">
+                                <!-- Sub-item title -->
+                                <a href="prices.html">Threading Service</a>
+                                <!-- Sub-item contents -->
+                                <ul class="is-hidden">
+                                    <li class="go-back"><a href="#0">Waxing</a></li>
+                                    <li class="see-all">
+                                    </li>
+                                    <li>Full Face</li>
+                                    <li>Under Arms</li>
+                                    <li>Half Arm</li>
+                                    <li>Full Arm</li>
+                                    <li>Half Leg</li>
+                                    <li>Full Leg</li>
+                                    <li>Biking side</li>
+                                    <li>Full Bikini</li>
+                                    <li>Brazillian Bikini</li>
+                                </ul>
+                                <!-- end sub-item contents -->
+                            </li>
+                            <!-- end sub-item -->
+                            <!-- Sub-item -->
+                            <li class="has-children">
+                                <!-- Sub-item title -->
+                                <a href="prices.html">Facial</a>
+                                <!-- Sub-item contents -->
+                                <ul class="is-hidden">
+                                    <li class="go-back"><a href="#0">Mustaches</a></li>
+                                    <li class="see-all">
+                                    </li>
+                                    <li>Gold Facial</li>
+                                    <li>Mini Facial</li>
+                                    <li>European Facial</li>
+                                </ul>
+                                <!-- end sub-item contents -->
+                            </li>
+                            <!-- end sub-item -->
+                            <!-- Sub-item -->
+                            <li class="has-children">
+                                <!-- Sub-item title -->
+                                <a href="prices.html">Other Services</a>
+                                <!-- Sub-item contents -->
+                                <ul class="is-hidden">
+                                    <li class="go-back"><a href="#0">Beards</a></li>
+                                    <li class="see-all">
+                                    </li>
+                                    <li> Henna Tatoo </li>
+                                    <li> Henna For Hair </li>
+                                    <li> Bridal Henna </li>
+                                    <li> Ear Piercing </li>
+                                    <li> Nose Piercing </li>
+                                </ul>
+                                <!-- end sub-item contents -->
+                            </li>
+                            <!-- end sub-item -->
+                        </ul>
+                        <!-- end .cd-secondary-dropdown -->
+                    </li>
+                    <!-- end services -->
+                    <!-- <li class="single-item"><a href="team.html">Team</a></li> -->
+                    <li class="single-item"><a href="about.html">About</a></li>
+                    <!-- <li class="single-item"><a href="blog-index.html">Blog</a></li> -->
+                    <li class="single-item"><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- .cd-dropdown-content -->
+            </nav>
+            <!-- end nav -->
+        </div>
+        <!-- end cd-wrapper -->
+        <!-- Book now button -->
+        <div class="nav__book hidden-xs">
+            <div id="phone" class="quick-link white"><a href="#"><i class="fa fa-phone"></i></a></div>
+            <div id="hours" class="quick-link white"><a href="#"><i class="fa fa-clock-o"></i></a></div>
+            <a href="#" class="book__nav" data-toggle="modal" data-target="#bookNowModal">Book Now</a>
+        </div>
+    </header>
+    <!-- end header -->
+    <!--
+    #################################
+        - Main Shave Content -
+    #################################
+    -->
+    <main class="sv__main--content">
+        <!-- feature slider section -->
+        <div class="section container-fluid no-padding white-bg hero">
+            <article class="content tp-banner-container">
+                <div id="rev_slider_46_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="notgeneric1" style="background-color:transparent;padding:0px;">
+                    <!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
+                    <div id="rev_slider_46_1" class="rev_slider fullscreenbanner tp-banner" style="display:none;" data-version="5.0.7">
+                        <ul>
+                            <!-- Slide -->
+                            <li data-index="rs-1" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="http://placehold.it/60x60" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Craftsmen" data-description="">
+                                <!-- MAIN IMAGE -->
+                                <img src="assets/images/threading.jpg" alt="The Shave Barbershop HTML Theme" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="off" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sv-feature-Icon circle-boarder tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-1" data-x="['left','left','center','center']" data-hoffset="['700','550','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-165','-150','-130','-145','-125']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;">
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <h2 class="tp-caption headline-left-right tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-2" data-x="['left','left','center','center']" data-hoffset="['700','550','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','10','-20','-20']" data-fontsize="['96','80','80','60','35']" data-lineheight="['96','80','80','60','35']" data-width="['700','550','550','450','305']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="on" data-elementdelay="0.6" style="z-index: 5; white-space: normal;">  Eyebrow Threading
+                                </h2>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption sv-feature-subtitle subtitle-left tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-3" data-x="['left','left','center','center']" data-hoffset="['700','550','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['155','150','152','95','75']" data-fontsize="['24','21','24','18','21']" data-lineheight="['32','28','32','21','24']" data-width="['700','600','455','550','350']" data-height="100" data-whitespace="[‘nowrap’,’normal’,’normal’,’normal’]" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="on" style="z-index: 6; white-space: normal; line-height: 20px;"> We have year's of experiences in Eyebrow Threading Design. Walk ins welcome.
+                                </div>
+                            </li>
+                            <!-- Slide -->
+                            <li data-index="rs-2" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="http://placehold.it/60x60" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Creative" data-description="">
+                                <!-- MAIN IMAGE -->
+                                <img src="assets/images/facial.png" alt="The Shave Barbershop HTML Theme" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sv-feature-headline headline-left   tp-resizeme rs-parallaxlevel-0" id="slide-2-layer-1" data-x="['left','left','center','center']" data-hoffset="['180','150','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-40','-40','0','-20','-20']" data-fontsize="['96','80','80','60','35']" data-lineheight="['96','80','80','60','35']" data-width="['700','700','700','300','300']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="on" data-elementdelay="0.6" style="z-index: 5; white-space: nowrap;"> Facial & Waxings
+                                </div>
+                                <!-- LAYER NR. 2 -->
+                                <div class="tp-caption sv-feature-subtitle subtitle-left tp-resizeme rs-parallaxlevel-0" id="slide-2-layer-2" data-x="['left','left','center','center']" data-hoffset="['185','150','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['125','115','152','105','80']" data-fontsize="['24','21','24','18','21']" data-lineheight="['32','28','32','21','24']" data-width="['600','670','550','550','325']" data-height="100" data-whitespace="[‘nowrap’,’normal’,’normal’,’normal’]" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-responsive="on" style="z-index: 6; white-space: normal; line-height: 20px;"> Get your desired look, charm and enhance your beauty.
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption sv-feature-Icon circle-boarder  tp-resizeme rs-parallaxlevel-0" id="slide-2-layer-3" data-x="['left','left','center','center']" data-hoffset="['180','150','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-200','-200','-130','-140','-120']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;">
+                                </div>
+                            </li>
+                            <!-- Slide -->
+                            <li data-index="rs-3" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="http://placehold.it/60x60" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Innovative" data-description="">
+                                <!-- MAIN IMAGE -->
+                                <img src="assets/images/henna.png" alt="The Shave Barbershop HTML Theme" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="off" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <!-- LAYERS -->
+                                <!-- LAYER NR. 1 background overlay -->
+                                <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" id="slide-3-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="opacity:1;s:1500;e:Power3.easeInOut;" data-start="750" data-basealign="slide" data-responsive_offset="on" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.00);border-color:rgba(0, 0, 0, 0.50);">
+                                </div>
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sv-feature-Icon circle-boarder tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-156','-126','-130','-140','-120']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:default;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power2.easeOut;" data-transform_out="opacity:0;s:1500;e:Power4.easeIn;s:1500;e:Power4.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;">
+                                </div>
+                                <!-- LAYER NR. 3 -->
+                                <div class="tp-caption sv-feature-headline   tp-resizeme rs-parallaxlevel-0" id="slide-3-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','-20','-20']" data-fontsize="['96','70','70','60','35']" data-lineheight="['96','70','70','60','35']" data-width="['1200','1200','800','800','400']" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"> Henna Tatoo
+                                </div>
+                                <!-- LAYER NR. 4 -->
+                                <div class="tp-caption sv-feature-subtitle   tp-resizeme rs-parallaxlevel-0" id="slide-3-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['162','132','152','105','80']" data-fontsize="['24','21','24','18','21']" data-lineheight="['32','28','32','21','24']" data-width="['700','670','550','550','400']" data-height="100" data-whitespace="[‘nowrap’,’normal’,’normal’,’normal’]" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: normal;"> Ink it up. We have hundreds of tatoo designs that will match you. We can also customize the tatoo as per your request.
+                                </div>
+                                <!-- LAYER NR. 5 -->
+                                <div class="tp-caption rev-scroll-btn hidden-xs hidden-sm rs-parallaxlevel-0" id="slide-2-layer-5" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['330','330','340','350','220']" data-width="35" data-height="55" data-whitespace="nowrap" data-transform_idle="o:1;" data-style_hover="cursor:pointer;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:50px;opacity:0;s:1000;s:1000;" data-start="2000" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]' data-basealign="slide" data-responsive_offset="on" data-responsive="on" style="z-index: 9; min-width: 35px; max-width: 35px; max-width: 55px; max-width: 55px; white-space: nowrap; font-size: px; line-height: px; font-weight: 100;border-color:rgba(255, 255, 255, 0.50);border-style:solid;border-width:1px;border-radius:23px 23px 23px 23px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                                    <span>
+                                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                    <!-- end revolution slider -->
+                </div>
+                <!-- end revolution wrapper -->
+            </article>
+            <!-- end container -->
+        </div>
+        <!-- end section -->
+        <!-- Featured Module One -->
+        <div class="section container-fluid svfm1__container no-padding">
+            <div class="angle-top" style="color: #fff;"></div>
+            <div class="inner-lg">
+                <div class="sv__container--md">
+                    <div class="intro">
+                        <h3>Welcome to Devi's Threading. </h3>
+                        <h4> One stop solution to Eyebrow Threading, Facials, waxing and Henna Tatoo</h4>
+                        <p class="sub-copy"> We offer variery of services from Eyebrow Design to Henna Tatoo. We have years of experiences and located in heart of Orange County. We keep out Customers on first priority  and their satisfaction is out goal.</p>
+                    </div>
+                    <div id="cascadeFeature" class="container inner-content-module svfm1__content">
+                        <!-- feature -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 svfm1__card">
+                            <figure class="svfm1__card--effect card-shadow-md">
+                                <img class="img-responsive" src="assets/images/eyebrow_designs.png" alt="feature 1" />
+                                <figcaption>
+                                    <div class="content">
+                                        <h2>Eyebrow Threading </h2>
+                                        <p class="hidden-sm"> Get your perfect design.</p>
+                                    </div>
+                                </figcaption>
+                                <!-- end figcaption -->
+                            </figure>
+                            <!-- end figure -->
+                        </div>
+                        <!-- end feature 1 -->
+                        <!-- feature -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 svfm1__card">
+                            <figure class="svfm1__card--effect card-shadow-md">
+                                <img class="img-responsive" src="assets/images/waxing.png" alt="feature 3" />
+                                <figcaption>
+                                    <div class="content">
+                                        <h2> Facial / Waxing</h2>
+                                        <p class="hidden-sm">Charm Yourself. Clean it up.</p>
+                                    </div>
+                                </figcaption>
+                                <!-- end figcaption -->
+                            </figure>
+                            <!-- end figure -->
+                        </div>
+                        <!-- end feature 3 -->
+                        <!-- feature -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 svfm1__card">
+                            <figure class="svfm1__card--effect card-shadow-md">
+                                <img class="img-responsive" src="assets/images/henna_tatoo.png" alt="feature 2" />
+                                <figcaption>
+                                    <div class="content">
+                                        <h2> Henna Tatoo</h2>
+                                        <p class="hidden-sm">Ink it up.</p>
+                                    </div>
+                                </figcaption>
+                                <!-- end figcaption -->
+                            </figure>
+                            <!-- end figure -->
+                        </div>
+                        <!-- end feature 2 -->
+                    </div>
+                    <!-- end container -->
+                </div>
+                <!-- end container md -->
+            </div>
+            <!-- end inner-lg -->
+        </div>
+        <!-- end section -->
+        <!-- Feature Module 2 -->
+        <div class="section container-fluid no-padding">
+            <div class="svfm2__wrapper">
+                <!-- background image wrapper -->
+                <div class="svfm2__wrapper--images">
+                    <div class="svfm2__image active" data-title="hair-cuts" style="background-image: url(assets/images/devis.png);">
+                    </div>
+                </div>
+                <!-- <div class="svfm2__tabs">
+                    <!-- Tab header -->
+                    <div class="svfm2__header">
+                        <div class="headline-container">
+                            <h2>Find your style</h2>
+                            <h3>Beard &amp; Mustache</h3>
+                        </div>
+                    </div>
+                    <!-- end tab header -->
+                </div> -->
+                <!-- end tab section -->
+            </div>
+            <!-- end feature module 2 wrapper -->
+        </div>
+        <!-- end section -->
+
+        <!-- Buy Theme -->
+        <div class="section container-fluid no-padding gold-bg">
+            <div class="inner-md">
+                <div class="row no-margin">
+                    <div class="buy__container">
+                        <div class="col-xs-12 buy-theme-sm">
+                            <h4 class="text-center white">Visit out Beauty Store and get the look you desire. </h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end inner-md -->
+        </div>
+        <!-- end section -->
+
+        <!-- Contact Section -->
+        <div id="shop-hours" class="section container-fluid white-bg no-padding">
+            <div class="inner-lg">
+                <div class="sv__container--md">
+                    <div class="contact__wrapper">
+                        <div class="section__wrapper">
+                            <!-- Contact Overview -->
+                            <div class="contact__card">
+                                <!-- Contact Image Left -->
+                                <div class="contact__card--left">
+                                  <a class="embedly-card" href="http://www.yelp.com/biz/devis-threading-and-beauty-santa-ana">Devi's Threading & Beauty - Santa Ana, CA</a>
+                                  <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                                  <br>
+                                  <br>
+                                  <center><div id="yelp-biz-badge-rrc-b6nF7SovX7AM3O20VUaCrg"><a href="http://yelp.com/biz/devis-threading-and-beauty-santa-ana" target="_blank">Check out Devi&#39;s Threading &amp; Beauty on Yelp</a></div><script>(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-rrc-b6nF7SovX7AM3O20VUaCrg";g.src = "//yelp.com/biz_badge_js/en_US/rrc/b6nF7SovX7AM3O20VUaCrg.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script></center>
+                                </div>
+
+                                <!-- end content left -->
+                                <!-- Contact Content Right -->
+                                <div class="contact__card--right">
+                                    <!-- Barbershop Location & Phone -->
+                                    <div class="contact__shop">
+                                        <div class="contact__card--content">
+                                            <h3>Location</h3>
+                                            <p>431 E First St, </p>
+                                            <p>Santa Ana, CA 92701.</p>
+                                            <a class="phone" href="tel:714.550-1004">714.550-1004</a>
+                                        </div>
+                                    </div>
+                                    <!-- Barbershop Email -->
+                                    <div class="contact__us">
+                                        <div class="contact__us--content card-shadow-lt icon-up-down">
+                                            <div class="inner__content">
+                                                <h4>Get In Touch<i class="fa fa-paper-plane-o animate-down-2 top-i"></i><i class="fa fa-envelope-o fa-lg animate-down-1 bottom-i"></i></h4>
+                                            </div>
+                                            <a href="mailto:devithreading@gmail.com">Email Us</a>
+                                        </div>
+                                    </div>
+                                    <!-- Barbershop Hours -->
+                                    <div class="contact__hours">
+                                        <div class="contact__card--content">
+                                            <h3>Weekly Hours</h3>
+                                            <p>Monday – Friday</p>
+                                            <p>9am - 6pm</p>
+                                            <p>Saturday and Sunday</p>
+                                            <p>10am - 4pm</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end content right -->
+                            </div>
+                            <!-- end contact card -->
+                        </div>
+                        <!-- end section wrapper -->
+                    </div>
+                    <!-- end contact wrapper -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end inner-lg -->
+        </div>
+        <!-- end section -->
+
+        <!-- Gold bar -->
+        <div class="section container-fluid no-padding gold-bg">
+            <div class="inner-sm sv__container--md">
+                <div class="row no-margin">
+                    <div class="col-xs-12">
+                        <h4 class="text-center white"> Get your desired look. Devi's Threading Welcomes You.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end gold bar -->
+    </main>
+    <!-- end main -->
+    <!--
+    #################################
+        - Footer -
+    #################################
+    -->
+    <footer class="loading">
+        <div class="sv__container--md">
+            <!-- Footer Wrapper -->
+            <div class="footer__wrapper">
+                <div class="row footer__row">
+                    <!-- Footer Logo -->
+                    <div class="footer__logo no-padding">
+                        <div class="logo__container">
+                            <h3> Devi's Threading</h3>
+                            <h4>Threading Salon</h4>
+                        </div>
+                    </div>
+                    <!-- Footer Description -->
+                    <div class="footer__desc">
+                        <!-- email container -->
+                        <div class="email__wrapper">
+                            <!-- email form -->
+                            <div class="email__form form-group">
+                                <form action="//yelp.us12.list-manage.com/subscribe/post?u=d5576591d9bd97358bf65e93d&amp;id=ba7d4a034f" method="post">
+                                    <!-- email input -->
+                                    <input type="email" class="form-control email__form--input" id="footer-email" name="EMAIL" required placeholder="Your Email Address">
+                                    <!-- subtext to email -->
+                                    <div class="email__offers">
+                                        <p>Stay updated on the latest + special offers and more.</p>
+                                    </div>
+                                    <!-- end sub-text -->
+                                    <button type="submit" class="btn book-now-btn form-btn">Submit</button>
+                                </form>
+                            </div>
+                            <!-- end email form -->
+                        </div>
+                        <!-- end email container -->
+                        <!-- address container -->
+                        <div class="row footer__contact">
+                            <!-- address -->
+                            <div class="col-xs-12 col-sm-6 footer__address no-padding">
+                                <p>431 E 1st St, </p>
+                                <p>Santa Ana, CA 92701</p>
+                            </div>
+                            <!-- email -->
+                            <div class="col-xs-12 col-sm-6 contact no-padding">
+                                <a class="email" href="mailto:devithreading@gmail.com">devithreading@gmail.com</a>
+                                <a class="phone" href="tel:714.550-1004">714.550.1004</a>
+                            </div>
+                        </div>
+                        <!-- end address container -->
+                        <!-- social media -->
+                        <div class="row social-footer">
+                            <div class="col-xs-12 col-sm-6 col-md-8">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/Devis-Threading-Beauty-210358435710380"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/devisthreading/"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://plus.google.com/+DevisThreadingBeautySantaAna/posts"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="http://www.yelp.com/biz/devis-threading-and-beauty-santa-ana"><i class="fa fa-yelp"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- end col -->
+                            <!-- copyright -->
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="copyright">
+                                    <p>&copy; Devi's Threading</p>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end social media -->
+                    </div>
+                    <!-- end right side -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end container md -->
+    </footer>
+    <!-- end foother -->
+    <!-- Book now modal -->
+    <div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <!-- Modal Section 1 -->
+                    <div class="col-xs-12 no-padding modal-info">
+                        <!-- Mobile close btn (hidden on larger screens) -->
+                        <button type="button" class="modal-close" aria-label="Close"><i class="fa fa-times"></i>
+                        </button>
+                        <!-- Section 1 content -->
+                        <div class="modal-bookNow" >
+                            <h2>Make AN Appointment</h2>
+                            <h4>Get your desired looks.</h4>
+                        </div>
+                        <!-- end modal content -->
+                    </div>
+                    <!-- end modal section 1 -->
+                    <!-- Modal Section 2 new -->
+                    <div class="col-xs-12 no-padding">
+                        <div class="modal-form">
+                            <ul class="book-list">
+                                <li>
+                                    <a href="">
+                                        <div class="list-content">
+                                            <i class="fa fa-phone fa-2x"></i>
+                                            <span>Call ahead</span>
+                                            <p>714.550.1004</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        <div class="list-content">
+                                            <i class="fa fa-map-marker fa-2x"></i>
+                                            <span>Walk-ins welcome</span>
+                                            <p>431 E 1st St, Santa Ana, CA 92701</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:devithreading@gmail.com">
+                                        <div class="list-content">
+                                            <i class="fa fa-paper-plane fa-2x"></i>
+                                            <span> Say Hello</span>
+                                            <p> devithreading@gmail.com </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end modal-form -->
+                    </div>
+                    <!-- end modal section 2 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end modal-content -->
+        </div>
+        <!-- end modal-dialog -->
+    </div>
+    <!-- End Modal -->
+    <!-- shave shop phone -->
+    <div class="sv-toast" data-toast="phone">
+        <div class="alert alert-success sv-phone" role="alert">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h2>Feel free to call us</h2>
+            <p> Make an Appointment</p>
+            <img class="img-responsive" src="assets/images/phone.png" alt="The Shave Phone Number" />
+            <a href="" class="tele">(714) 550-1004</a>
+        </div>
+    </div>
+    <!-- end shop pimes -->
+    <!-- shave shop times -->
+    <div class="sv-toast" data-toast="hours">
+        <div class="alert alert-success sv-hours" role="alert">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="toast-title">
+                <h2> Devi's Threading Hours</h2>
+                <h6>We're open</h6>
+            </div>
+            <div class="toast-hours">
+                <p><span>Mon - Fri :</span> 10:00 AM - 8:00 PM</p>
+                <p><span>Sat :</span> 10:00 AM - 8:00 PM</p>
+            </div>
+        </div>
+    </div>
+    <!-- end shop times -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71341704-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- Plugins -->
+    <script src="assets/scripts/jquery.menu-aim.js"></script>
+    <script src="assets/scripts/modernizr.min.js"></script>
+    <script src="assets/scripts/bootstrap.min.js"></script>
+    <script src="assets/scripts/skrollr.min.js"></script>
+    <script src="assets/scripts/imagesloaded.min.js"></script>
+    <script src="assets/scripts/jquery-placeholder.min.js"></script>
+    <script src="assets/scripts/jquery.prefetch.min.js"></script>
+    <script src="assets/scripts/ScrollMagic.min.js"></script>
+    <script src="assets/scripts/debug.addIndicators.min.js"></script>
+    <!-- Settings -->
+    <script src="assets/scripts/window-settings.min.js"></script>
+    <script src="assets/scripts/nav-settings.min.js"></script>
+    <script src="assets/scripts/main-settings.min.js"></script>
+
+    <script>
+    (function($) {
+    'use strict';
+        // Revolution Slider Settings
+        // ==========================================================================
+        var tpj = jQuery;
+        var sliderId = "#rev_slider_46_1";
+        var revapi46;
+        tpj(document).ready(function() {
+            if (tpj(sliderId).revolution == undefined) {
+                revslider_showDoubleJqueryError(sliderId);
+            } else {
+                revapi46 = tpj(sliderId).show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "assets/scripts/",
+                    sliderLayout: "fullscreen",
+                    dottedOverlay: "none",
+                    delay: 7000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop:"on",
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        },
+                        arrows: {
+                            style: "erinyen",
+                            enable: true,
+                            hide_onmobile: false,
+                            hide_under: 600,
+                            hide_onleave: false,
+                            hide_delay: 200,
+                            hide_delay_mobile: 1200,
+                            tmp: '<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div>    <div class="tp-arr-img-over">   </div><span class="tp-arr-titleholder">{{title}}</span>     </div>',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 30,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 30,
+                                v_offset: 0
+                            }
+                        },
+                        thumbnails: {
+                            style: "gyges",
+                            enable: true,
+                            width: 100,
+                            height: 60,
+                            min_width: 60,
+                            wrapper_padding: 0,
+                            wrapper_color: "transparent",
+                            wrapper_opacity: "1",
+                            tmp: '<span class="tp-thumb-img-wrap">  <span class="tp-thumb-image"></span></span>',
+                            visibleAmount: 0,
+                            hide_onmobile: true,
+                            hide_under: 800,
+                            hide_onleave: false,
+                            direction: "horizontal",
+                            span: false,
+                            position: "inner",
+                            space: 0,
+                            h_align: "center",
+                            v_align: "bottom",
+                            h_offset: 0,
+                            v_offset: 20
+                        }
+                    },
+                    responsiveLevels: [1300, 1186, 977, 778, 480],
+                    gridwidth: [1400, 1186, 977, 778, 480],
+                    gridheight: [960, 868, 768, 960, 720],
+                    lazyType: "none",
+                    parallax: {
+                        type: "mouse",
+                        origo: "slidercenter",
+                        speed: 2000,
+                        levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                        disable_onmobile: "on"
+                    },
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "off",
+                    stopAfterLoops: 3,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    fullScreenAlignForce: "off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "0px",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        }); /*ready*/
+
+        $(window).bind('resizeEnd', function() {
+            $("#rev_slider_46_1").revredraw();
+        });
+        $(window).on('resize', function() {
+            if (this.resizeTO) clearTimeout(this.resizeTO);
+            this.resizeTO = setTimeout(function() {
+                $(this).trigger('resizeEnd');
+            }, 500);
+        });
+
+    })(jQuery);
+    </script>
+</body>
+
+</html>
